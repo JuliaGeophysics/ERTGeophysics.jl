@@ -1,0 +1,14 @@
+# Everything generated (case inputs, run directories, figures) lives in demo/<case>/
+demo/
+run_*/
+examples/
+# Julia artifacts
+*.jl.cov
+*.jl.mem
+Manifest.toml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+USERGUIDE.md

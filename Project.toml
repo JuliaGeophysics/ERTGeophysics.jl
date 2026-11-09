@@ -1,0 +1,31 @@
+name = "ERTGeophysics"
+uuid = "127d345e-d3fc-479d-9644-e6d10eadcf24"
+version = "0.1.0"
+authors = ["JuliaGeophysics", "Pankaj K Mishra <pankajkmishra01@gmail.com>", "and contributors"]
+
+[deps]
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+Proj = "c94c279d-25a6-4763-9509-64d165bea63e"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+[compat]
+CairoMakie = "0.14, 0.15"
+Dates = "1"
+LinearAlgebra = "1"
+Printf = "1"
+Proj = "1"
+Random = "1"
+SparseArrays = "1"
+Statistics = "1"
+julia = "1.13"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
